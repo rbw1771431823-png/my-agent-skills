@@ -1,0 +1,6 @@
+interface:
+  display_name: "按任务分工"
+  short_description: "选择直接处理或分身协作，明确交接和验收，减少主理人重复执行"
+  default_prompt: "使用 $cost-aware-delegation 为当前已授权任务选择合适分工并推进验收。"
+policy:
+  allow_implicit_invocation: true

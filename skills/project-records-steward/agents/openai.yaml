@@ -1,0 +1,6 @@
+interface:
+  display_name: "项目文档记录员"
+  short_description: "跨项目查证历史、同步已确认更新、维护目录导航并核对新旧冲突"
+  default_prompt: "使用 $project-records-steward 为当前项目接入文档记录员，先确认资料入口、目录约定与写入边界。"
+policy:
+  allow_implicit_invocation: true

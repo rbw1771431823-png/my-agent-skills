@@ -1,0 +1,38 @@
+name: 问题报告 / Bug report
+description: 提供最小复现，帮助核对实际行为。
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "请使用虚构或脱敏样例。不要提交凭证、私人项目资料或完整原始日志。"
+  - type: input
+    id: version
+    attributes:
+      label: Skill 名称与版本 / Skill and version
+      placeholder: project-records-steward 0.1.0
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Agent 平台与系统 / Agent platform and OS
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 安装方式与最小复现 / Installation and steps
+      description: 写清从什么状态开始、做了什么；示例资料请脱敏。
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 预期与实际结果 / Expected and observed behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 必要依据 / Minimal supporting evidence
+      description: 可选。只贴与问题有关的脱敏片段，并注明已验证、失败或未知。

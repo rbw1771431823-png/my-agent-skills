@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "profileName": "示例项目配置",
+  "rootTitle": "",
+  "rootPurpose": "项目根目录，用于查找本项目的直接内容。",
+  "excludedDirectoryNames": [
+    "build",
+    "coverage"
+  ],
+  "excludedNamePatterns": [],
+  "excludedFileExtensions": [
+    ".tmp"
+  ],
+  "unfinishedTextPatterns": [],
+  "defaultStatus": "ordinary",
+  "defaultWhenToOpen": "需要处理或查找此项内容时打开。",
+  "statusRules": [],
+  "descriptionRules": [],
+  "whenRules": [],
+  "folderPurposeRules": []
+}
